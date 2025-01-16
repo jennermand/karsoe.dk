@@ -8,6 +8,5 @@
     ],
     "RuntimeIdentifier": "KubeRelease",
     "Builder": "docker",
-    "OutputFormat":  "helm"
   }
 }
