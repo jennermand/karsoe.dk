@@ -6,6 +6,7 @@
   "containerImageTags": [
     "latest"
   ],
+  "runtimeIdentifier": "linux-arm64",
   "imagePullPolicy": "Always",
   "containerBuilder": "docker",
   "containerRepositoryPrefix": "karsoe",
