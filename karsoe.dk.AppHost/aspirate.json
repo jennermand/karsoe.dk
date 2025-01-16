@@ -6,7 +6,7 @@
     "Tags": [
       "latest"
     ],
-    "RuntimeIdentifier": "KubeRelease",
+    "RuntimeIdentifier": "linux-arm64",
     "Builder": "docker",
     "OutputFormat": "helm"
   }

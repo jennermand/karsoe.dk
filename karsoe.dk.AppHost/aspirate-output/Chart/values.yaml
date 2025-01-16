@@ -1,0 +1,4 @@
+images:
+  cache: docker.io/library/redis:7.4
+  apiservice: harbor.mongodb.dk/karsoe/apiservice:latest
+  webfrontend: harbor.mongodb.dk/karsoe/webfrontend:latest

@@ -9,7 +9,7 @@
   "imagePullPolicy": "Always",
   "containerBuilder": "docker",
   "containerRepositoryPrefix": "karsoe",
-  "outputFormat": "kustomize",
+  "outputFormat": "helm",
   "skipFinalKustomizeGeneration": false,
   "privateRegistryEmail": "aspir8@aka.ms",
   "includeDashboard": false,
