@@ -1,0 +1,13 @@
+{
+  "TemplatePath": null,
+  "ContainerSettings": {
+    "Registry": "harbor.mongodb.dk",
+    "RepositoryPrefix": "karsoe",
+    "Tags": [
+      "latest"
+    ],
+    "RuntimeIdentifier": "KubeRelease",
+    "Builder": "docker",
+    "OutputFormat":  "helm"
+  }
+}

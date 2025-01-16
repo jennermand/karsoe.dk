@@ -1,0 +1,92 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35617.110 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "karsoe.dk.AppHost", "karsoe.dk.AppHost\karsoe.dk.AppHost.csproj", "{193AF946-5A31-4DE8-80AD-34A630C8EB6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "karsoe.dk.ServiceDefaults", "karsoe.dk.ServiceDefaults\karsoe.dk.ServiceDefaults.csproj", "{753C686A-9C8C-6917-A0C2-5C4405977E4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "karsoe.dk.ApiService", "karsoe.dk.ApiService\karsoe.dk.ApiService.csproj", "{2B244146-1494-04CE-0755-A6D1252E05BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "karsoe.dk.Web", "karsoe.dk.Web\karsoe.dk.Web.csproj", "{4EB5913E-193C-08EB-4E55-0E869A45531F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "karsoe.dk.Tests", "karsoe.dk.Tests\karsoe.dk.Tests.csproj", "{D68D32EA-7AD4-EB2F-A06F-03A850CC1BAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM64 = Debug|ARM64
+		KubeRelease|Any CPU = KubeRelease|Any CPU
+		KubeRelease|ARM64 = KubeRelease|ARM64
+		Release|Any CPU = Release|Any CPU
+		Release|ARM64 = Release|ARM64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{193AF946-5A31-4DE8-80AD-34A630C8EB6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{193AF946-5A31-4DE8-80AD-34A630C8EB6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{193AF946-5A31-4DE8-80AD-34A630C8EB6D}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{193AF946-5A31-4DE8-80AD-34A630C8EB6D}.Debug|ARM64.Build.0 = Debug|ARM64
+		{193AF946-5A31-4DE8-80AD-34A630C8EB6D}.KubeRelease|Any CPU.ActiveCfg = KubeRelease|Any CPU
+		{193AF946-5A31-4DE8-80AD-34A630C8EB6D}.KubeRelease|Any CPU.Build.0 = KubeRelease|Any CPU
+		{193AF946-5A31-4DE8-80AD-34A630C8EB6D}.KubeRelease|ARM64.ActiveCfg = KubeRelease|ARM64
+		{193AF946-5A31-4DE8-80AD-34A630C8EB6D}.KubeRelease|ARM64.Build.0 = KubeRelease|ARM64
+		{193AF946-5A31-4DE8-80AD-34A630C8EB6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{193AF946-5A31-4DE8-80AD-34A630C8EB6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{193AF946-5A31-4DE8-80AD-34A630C8EB6D}.Release|ARM64.ActiveCfg = Release|ARM64
+		{193AF946-5A31-4DE8-80AD-34A630C8EB6D}.Release|ARM64.Build.0 = Release|ARM64
+		{753C686A-9C8C-6917-A0C2-5C4405977E4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{753C686A-9C8C-6917-A0C2-5C4405977E4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{753C686A-9C8C-6917-A0C2-5C4405977E4A}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{753C686A-9C8C-6917-A0C2-5C4405977E4A}.Debug|ARM64.Build.0 = Debug|ARM64
+		{753C686A-9C8C-6917-A0C2-5C4405977E4A}.KubeRelease|Any CPU.ActiveCfg = KubeRelease|Any CPU
+		{753C686A-9C8C-6917-A0C2-5C4405977E4A}.KubeRelease|Any CPU.Build.0 = KubeRelease|Any CPU
+		{753C686A-9C8C-6917-A0C2-5C4405977E4A}.KubeRelease|ARM64.ActiveCfg = KubeRelease|ARM64
+		{753C686A-9C8C-6917-A0C2-5C4405977E4A}.KubeRelease|ARM64.Build.0 = KubeRelease|ARM64
+		{753C686A-9C8C-6917-A0C2-5C4405977E4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{753C686A-9C8C-6917-A0C2-5C4405977E4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{753C686A-9C8C-6917-A0C2-5C4405977E4A}.Release|ARM64.ActiveCfg = Release|ARM64
+		{753C686A-9C8C-6917-A0C2-5C4405977E4A}.Release|ARM64.Build.0 = Release|ARM64
+		{2B244146-1494-04CE-0755-A6D1252E05BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B244146-1494-04CE-0755-A6D1252E05BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B244146-1494-04CE-0755-A6D1252E05BB}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{2B244146-1494-04CE-0755-A6D1252E05BB}.Debug|ARM64.Build.0 = Debug|ARM64
+		{2B244146-1494-04CE-0755-A6D1252E05BB}.KubeRelease|Any CPU.ActiveCfg = KubeRelease|Any CPU
+		{2B244146-1494-04CE-0755-A6D1252E05BB}.KubeRelease|Any CPU.Build.0 = KubeRelease|Any CPU
+		{2B244146-1494-04CE-0755-A6D1252E05BB}.KubeRelease|ARM64.ActiveCfg = KubeRelease|ARM64
+		{2B244146-1494-04CE-0755-A6D1252E05BB}.KubeRelease|ARM64.Build.0 = KubeRelease|ARM64
+		{2B244146-1494-04CE-0755-A6D1252E05BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B244146-1494-04CE-0755-A6D1252E05BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B244146-1494-04CE-0755-A6D1252E05BB}.Release|ARM64.ActiveCfg = Release|ARM64
+		{2B244146-1494-04CE-0755-A6D1252E05BB}.Release|ARM64.Build.0 = Release|ARM64
+		{4EB5913E-193C-08EB-4E55-0E869A45531F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EB5913E-193C-08EB-4E55-0E869A45531F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EB5913E-193C-08EB-4E55-0E869A45531F}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{4EB5913E-193C-08EB-4E55-0E869A45531F}.Debug|ARM64.Build.0 = Debug|ARM64
+		{4EB5913E-193C-08EB-4E55-0E869A45531F}.KubeRelease|Any CPU.ActiveCfg = KubeRelease|Any CPU
+		{4EB5913E-193C-08EB-4E55-0E869A45531F}.KubeRelease|Any CPU.Build.0 = KubeRelease|Any CPU
+		{4EB5913E-193C-08EB-4E55-0E869A45531F}.KubeRelease|ARM64.ActiveCfg = KubeRelease|ARM64
+		{4EB5913E-193C-08EB-4E55-0E869A45531F}.KubeRelease|ARM64.Build.0 = KubeRelease|ARM64
+		{4EB5913E-193C-08EB-4E55-0E869A45531F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EB5913E-193C-08EB-4E55-0E869A45531F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EB5913E-193C-08EB-4E55-0E869A45531F}.Release|ARM64.ActiveCfg = Release|ARM64
+		{4EB5913E-193C-08EB-4E55-0E869A45531F}.Release|ARM64.Build.0 = Release|ARM64
+		{D68D32EA-7AD4-EB2F-A06F-03A850CC1BAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D68D32EA-7AD4-EB2F-A06F-03A850CC1BAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D68D32EA-7AD4-EB2F-A06F-03A850CC1BAB}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{D68D32EA-7AD4-EB2F-A06F-03A850CC1BAB}.Debug|ARM64.Build.0 = Debug|ARM64
+		{D68D32EA-7AD4-EB2F-A06F-03A850CC1BAB}.KubeRelease|Any CPU.ActiveCfg = KubeRelease|Any CPU
+		{D68D32EA-7AD4-EB2F-A06F-03A850CC1BAB}.KubeRelease|Any CPU.Build.0 = KubeRelease|Any CPU
+		{D68D32EA-7AD4-EB2F-A06F-03A850CC1BAB}.KubeRelease|ARM64.ActiveCfg = KubeRelease|ARM64
+		{D68D32EA-7AD4-EB2F-A06F-03A850CC1BAB}.KubeRelease|ARM64.Build.0 = KubeRelease|ARM64
+		{D68D32EA-7AD4-EB2F-A06F-03A850CC1BAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D68D32EA-7AD4-EB2F-A06F-03A850CC1BAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D68D32EA-7AD4-EB2F-A06F-03A850CC1BAB}.Release|ARM64.ActiveCfg = Release|ARM64
+		{D68D32EA-7AD4-EB2F-A06F-03A850CC1BAB}.Release|ARM64.Build.0 = Release|ARM64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6AA10D6-03C1-4FED-8660-D28159A0DDC9}
+	EndGlobalSection
+EndGlobal
