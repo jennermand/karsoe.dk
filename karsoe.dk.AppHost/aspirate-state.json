@@ -1,26 +1,27 @@
 {
   "projectPath": ".",
   "outputPath": "aspirate-output",
+  "namespace": "karsoe",
   "containerRegistry": "harbor.mongodb.dk",
   "containerImageTags": [
     "latest"
   ],
-  "runtimeIdentifier": "linux-arm64",
+  "imagePullPolicy": "Always",
   "containerBuilder": "docker",
   "containerRepositoryPrefix": "karsoe",
   "outputFormat": "kustomize",
   "skipFinalKustomizeGeneration": false,
   "privateRegistryEmail": "aspir8@aka.ms",
-  "includeDashboard": true,
-  "useCustomNamespace": false,
+  "includeDashboard": false,
+  "useCustomNamespace": true,
   "secrets": {
-    "salt": "dKJWYOJG5R2szbRI",
-    "hash": "eblAa4b7N4w2q9a8hv0TvPwk\u002BGDIUuULOiu7\u002BByV5gI=",
+    "salt": "FfreTAQLj9XT4RVB",
+    "hash": "oa8cEMemeMdgJxcxZ59A2PE81V4ZPbqWcA0qekeIaAA=",
     "secrets": {
       "cache": {},
       "apiservice": {},
       "webfrontend": {
-        "ConnectionStrings__cache": "dKJWYOJG5R2szbRIYmXwm6xalwCfFpo4y8wjBOZoyz1OiPfPcSM="
+        "ConnectionStrings__cache": "FfreTAQLj9XT4RVBrOwIgTRCz6a7sE205zq5a3LGsHPY2tI0AoU="
       }
     }
   },

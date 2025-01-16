@@ -1,8 +1,10 @@
+namespace: karsoe
+
 resources:
 - cache
 - apiservice
 - webfrontend
-- dashboard.yaml
+- namespace.yaml
 
 generatorOptions:
   disableNameSuffixHash: true

@@ -21,11 +21,8 @@ spec:
       containers:
       - name: cache
         image: docker.io/library/redis:7.4
-        imagePullPolicy: IfNotPresent
+        imagePullPolicy: Always
         ports:
         - name: tcp
           containerPort: 6379
-        envFrom:
-        - configMapRef:
-            name: cache-env
       terminationGracePeriodSeconds: 180
