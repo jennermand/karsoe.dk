@@ -1,4 +1,4 @@
-apiVersion: apps/v1
+ apiVersion: apps/v1
 kind: Deployment
 metadata:
   annotations: {}
@@ -32,6 +32,7 @@ spec:
         ports:
         - containerPort: 8080
           name: http
-        - containerPort: 8443
+        - containerPort: 8443d:
+
           name: https
       terminationGracePeriodSeconds: 180
